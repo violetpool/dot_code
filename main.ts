@@ -74,31 +74,38 @@ basic.forever(function () {
         sprite.change(LedSpriteProperty.X, 1)
         sprite.change(LedSpriteProperty.Y, 1)
     } else if (number == 1) {
-        sprite.change(LedSpriteProperty.X, 1)
-        sprite.change(LedSpriteProperty.Y, 1)
+        sprite.change(LedSpriteProperty.X, 5)
+        sprite.change(LedSpriteProperty.Y, 5)
     } else if (number == 2) {
         sprite.change(LedSpriteProperty.X, 1)
-        sprite.change(LedSpriteProperty.Y, 1)
+        sprite.change(LedSpriteProperty.Y, 3)
     } else if (number == 3) {
-        sprite.change(LedSpriteProperty.X, 1)
-        sprite.change(LedSpriteProperty.Y, 1)
+        sprite.change(LedSpriteProperty.X, 2)
+        sprite.change(LedSpriteProperty.Y, 3)
     } else if (number == 4) {
+        sprite.change(LedSpriteProperty.X, 4)
+        sprite.change(LedSpriteProperty.Y, 5)
+    } else if (number == 5) {
+        sprite.change(LedSpriteProperty.Y, 2)
+        sprite.change(LedSpriteProperty.Y, 1)
+    } else if (number == 6) {
         sprite.change(LedSpriteProperty.X, 1)
         sprite.change(LedSpriteProperty.Y, 1)
-    } else if (number == 5) {
-    	
-    } else if (number == 6) {
-    	
     } else if (number == 0) {
-    	
+        sprite.change(LedSpriteProperty.X, 1)
+        sprite.change(LedSpriteProperty.Y, 1)
     } else if (number == 7) {
-    	
+        sprite.change(LedSpriteProperty.X, 1)
+        sprite.change(LedSpriteProperty.Y, 1)
     } else if (number == 8) {
-    	
+        sprite.change(LedSpriteProperty.X, 1)
+        sprite.change(LedSpriteProperty.Y, 1)
     } else if (number == 9) {
-    	
+        sprite.change(LedSpriteProperty.X, 1)
+        sprite.change(LedSpriteProperty.Y, 1)
     } else {
-    	
+        sprite.change(LedSpriteProperty.X, 1)
+        sprite.change(LedSpriteProperty.Y, 0)
     }
 })
 basic.forever(function () {
